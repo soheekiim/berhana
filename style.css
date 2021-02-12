@@ -1,42 +1,83 @@
 body {
+  padding: 0px;
+  margin: 0px;
+
   font-family: 'JetBrains Mono', monospace;
   background-color: #293A7B;
   text-align: center;
   color: #D9DDE2;
 }
 
-p {
-  font-size: 25px;
-  text-align: center;
-  padding-bottom: 20px;
+
+html #MAIN {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+#header {
+  display: inline-block;
 }
 
 
 #title {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  font-family: 'Lexend Mega', sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  /* font-style: oblique; */
+
+  margin-top: 40px;
+  margin-bottom: 50px;
+  letter-spacing: 40px;
+
+  position: relative;
+  left: 22px;
 }
 
-#han {
-  font-size: 70px;
-  font-style: bold;
-  margin-top: 18px;
-  margin-bottom: 25px;
-  letter-spacing: 28px;
+
+#logo {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+
+  /* width: 70px;
+  height: 70px; */
+}
+
+
+#albumcover {
+  /* display: block; */
+  /* height: 550px;
+  width: 550px; */
+}
+
+
+#content {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+
+p:hover {
+  color: #171A1F;
 }
 
 
 .quote {
   font-style: italic;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
 
 #links {
+  border-top: 2px solid #D9DDE2;
+
   word-spacing: 250px;
-  padding-top: 100px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 
