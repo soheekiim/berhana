@@ -22,7 +22,7 @@ html #MAIN {
 
 #title {
   font-family: 'Lexend Mega', sans-serif;
-  font-size: 80px;
+  font-size: 75px;
   font-weight: bold;
   /* font-style: oblique; */
 
@@ -39,16 +39,16 @@ html #MAIN {
   position: fixed;
   top: 20px;
   right: 20px;
-
-  /* width: 70px;
-  height: 70px; */
 }
 
 
-#albumcover {
-  /* display: block; */
-  /* height: 550px;
-  width: 550px; */
+#hanlogo {
+  width: 80px;
+}
+
+
+#album {
+  width: 450px;
 }
 
 
@@ -73,9 +73,10 @@ p:hover {
 
 
 #links {
-  border-top: 2px solid #D9DDE2;
-
+  font-family: 'Lexend Mega', sans-serif;
   word-spacing: 250px;
+
+  border-top: 2px solid #D9DDE2;
   padding-top: 15px;
   padding-bottom: 10px;
 }
@@ -83,6 +84,6 @@ p:hover {
 
 a {
   font-style: bold;
-  font-size: 21px;
+  font-size: 18px;
   color: #D9DDE2;
 }
